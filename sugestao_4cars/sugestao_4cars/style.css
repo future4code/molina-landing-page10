@@ -50,14 +50,17 @@ footer{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: #45525b;
+    background-color: #44adf8;
     position: fixed;
     bottom: 0;
     font-size: 0.8vw;
 }
 
 .logo{
-    width: 40px;
+    width: 160px;
+    margin: 40px;
+    
+   
   
 }
 /*  h e a d e r  */
@@ -101,6 +104,7 @@ background-color: rgb(230, 2, 2);
     font-weight: bolder;
     color: white;
     text-shadow: 2px 2px 2px black;
+    cursor: pointer;
     }
     #lupa:hover{
         opacity: 50%;
@@ -119,6 +123,7 @@ background-color: rgb(230, 2, 2);
     font-size: 1vw;
     text-align: center;
     height: 100%;
+    cursor: pointer;
 }
 
 /* n a v */
@@ -127,7 +132,7 @@ background-color: rgb(230, 2, 2);
 nav{
     width: 16vw;
     height: 100%;
-    background-color: #b4cddd;
+    background-color: #428fbe;
 }
 
 .menu-button{
@@ -196,7 +201,7 @@ section{
     background-color: white;
     border-radius: 4%;
     margin: 2px;
-    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.507);
+    box-shadow: 2px 2px 5px rgba(243, 10, 10, 0.507);
    
 }
 
@@ -303,7 +308,7 @@ footer p{
         align-self: stretch;
         font-size: 5vh;
         padding-bottom: 50%;
-        border-left: 2px solid #fe7e02;
+        border-left: 2px solid #000000;
         padding-left: 2vw;
     }
 
@@ -400,7 +405,7 @@ body{
 }
 
 nav {
-    background: #85817f;
+    background: rgb(235, 232, 232);
     padding: 10px;
 }
 
@@ -450,6 +455,36 @@ footer{
     padding: 0 10px;
 }
 
+
+.rodape {
+    flex-direction: column;
+    background-color: rgb(252, 30, 1);
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape > p {
+    width: 30%;
+    float: left;
+    text-align: right;
+    margin: 60px auto;
+}
+
+.img-rodape {
+    width: 30%;
+    float: right;
+    text-align: center;
+    margin: 2   0px auto;
+}
+
+.img-rodape > img {
+    height: 30px;
+    margin: 1px;
+}
+
+
 .miclass {
     font-size: 28px;
     margin: 0;
@@ -475,3 +510,59 @@ input {
 video {
     width: 100%;
 }
+
+
+/* alugar carro */
+
+.corMenu a{
+    color: white;
+    background-color: red;
+}
+
+.form-add button{
+
+    color: white;
+    background-color: brown;
+    
+}
+
+label {
+    margin-left: 200px;
+}
+button {
+    margin-left: 200px;
+    cursor: pointer;
+}
+h2 {
+    margin-left: 200px;
+}
+
+/* Funcionarios */
+
+.corMenu a{
+    color: white;
+    background-color: red;
+}
+
+
+aside {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin: 8px;
+  
+}
+
+
+.cargosCor {
+    color: blue;
+}
+
+/* alugar carro */
+
+.corMenu a{
+    color: white;
+    background-color: red;
+}
+
+
